@@ -1,3 +1,4 @@
+set confirm on
 break __libc_start_main
 break *0x55555555548b
 break *0x555555555209
